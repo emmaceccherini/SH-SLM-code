@@ -13,4 +13,4 @@ SH_main/
 .~lock.*
 *.pkl
 __pycache__/
-*.html
+
