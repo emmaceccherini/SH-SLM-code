@@ -1,0 +1,16 @@
+.vscode/
+.env
+
+*.csv
+
+node_modules/
+transformers-course/
+work in progress files/
+SH_main/
+
+*.odt
+*.swp
+.~lock.*
+*.pkl
+__pycache__/
+*.html

@@ -1,0 +1,19 @@
+{
+  "name": "invoice-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes invoice line items from a web-based invoicing platform",
+  "main": "scrape_invoices.js",
+  "scripts": {
+    "scrape": "node scrape_invoices.js",
+    "debug": "DEBUG=pw:api node scrape_invoices.js"
+  },
+  "dependencies": {
+    "playwright": "^1.42.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  }
+}
